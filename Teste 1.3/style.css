@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#calc{
+    margin-top: 50px;
+    border: solid;
+    border-radius: 10px;
+    height: 500px;
+    width: 350px;
+}
+
+#conteiner{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25% auto;
+    background-color: rgb(53, 50, 50);
+}
+
+#aba_resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    width: 80%;
+    display: flex;
+    height: 50%;
+    border: solid;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+#conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+#op{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    flex-grow: 1;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+#delete, #zero{
+    grid-column:  span 2;
+}
+
+#igual{
+    grid-row: span 2;
+}
+
+#op button{
+    font-size: 19px;
+    background-color: rgb(29, 25, 25);
+    color: white;
+    border-radius: 9%;
+}
+
+

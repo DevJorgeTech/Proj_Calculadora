@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="calc">
+        <div id="conteiner">
+            <div id="aba_resultado">
+                <input type="text" id="result" disabled="disabled" placeholder="0">
+            </div>
+            <div id="conteudo">
+                    <main id="op">
+                        <button type="button" id="delete" onclick="cacl('acao', 'c')">C</button>
+                        <button type="button" id="divi" onclick="cacl('acao', '/')">/</button>
+                        <button type="button" id="multi" onclick="cacl('acao', '*')">X</button>
+                        <button type="button" id="sete" onclick="cacl('valor', 7)">7</button>
+                        <button type="button" id="oito" onclick="cacl('valor', 8)">8</button>
+                        <button type="button" id="nove" onclick="cacl('valor', 9)">9</button>
+                        <button type="button" id="menos" onclick="cacl('acao', '-')">-</button>
+                        <button type="button" id="quatro" onclick="cacl('valor', 4)">4</button>
+                        <button type="button" id="cinco" onclick="cacl('valor', 5)">5</button>
+                        <button type="button" id="seis" onclick="cacl('valor', 6)">6</button>
+                        <button type="button" id="mais" onclick="cacl('acao', '+')">+</button>
+                        <button type="button" id="um" onclick="cacl('valor', 1)">1</button>
+                        <button type="button" id="dois" onclick="cacl('valor', 2)">2</button>
+                        <button type="button" id="tres" onclick="cacl('valor', 3)">3</button>
+                        <button type="button" id="igual" onclick="cacl('acao', '=')">=</button>
+                        <button type="button" id="zero" onclick="cacl('valor', 0)">0</button>
+                        <button type="button" id="vir" onclick="cacl('acao', '.')">,</button>
+                    </main>
+            </div>
+        </div>
+    </section>
+    <script src="./cacl.js"></script>
+
+</body>
+</html>
