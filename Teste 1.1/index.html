@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="calc">
+        <div id="conteiner">
+            <div id="aba_resultado">
+                <div id="result" ></div>
+            </div>
+            <div id="conteudo">
+                    <main id="op">
+                        <button type="button" id="delete" onclick="deletar('0')">C</button>
+                        <button type="button" id="divi" onclick="cacl('1')">/</button>
+                        <button type="button" id="multi" onclick="cacl('1')">X</button>
+                        <button type="button" id="sete" onclick="cacl('7')">7</button>
+                        <button type="button" id="oito" onclick="cacl('8')">8</button>
+                        <button type="button" id="nove" onclick="cacl('9')">9</button>
+                        <button type="button" id="menos" onclick="cacl('1')">-</button>
+                        <button type="button" id="quatro" onclick="cacl('4')">4</button>
+                        <button type="button" id="cinco" onclick="cacl('5')">5</button>
+                        <button type="button" id="seis" onclick="cacl('6')">6</button>
+                        <button type="button" id="mais" onclick="cacl('1')">+</button>
+                        <button type="button" id="um" onclick="cacl('1')">1</button>
+                        <button type="button" id="dois" onclick="cacl('2')">2</button>
+                        <button type="button" id="tres" onclick="cacl('3')">3</button>
+                        <button type="button" id="igual">=</button>
+                        <button type="button" id="zero" onclick="cacl('0')">0</button>
+                        <button type="button" id="vir">,</button>
+                    </main>
+            </div>
+        </div>
+    </section>
+    <script src="./cacl.js"></script>
+
+</body>
+
+</html>
